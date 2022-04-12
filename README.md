@@ -3,7 +3,7 @@
 # Designing isolation guidelines for COVID-19 patients with rapid antigen tests
 
 
-# 1) Viral dynamics model
+1) Viral dynamics model
 
 'symptomatic109.csv' and 'asymptomatic101.csv' are viral load data for symptomatic and asymptomatic patients, respectively. The data were extracted from published literature.
 
@@ -12,7 +12,7 @@
 These files are used to estimate parameters of the viral dynamics model in MONOLIX2019R2.
 
 
-# 2) Simulation for isolation guideline
+2) Simulation for isolation guideline
 
 'populationParameters_sym.txt' and 'populationParameters_asym.txt' are the estimated parameters of viral dynamics model for symptomatic and asymptomatic patients, respectively.
 
