@@ -1,0 +1,28 @@
+DESCRIPTION:
+The administration is via an infusion (requires INFUSION RATE or INFUSION DURATION column-type in the data set).
+The PK model has a central compartment (volume V1), a peripheral compartment 
+(volume V2, intercompartmental clearance Q), and a linear elimination (clearance Cl).
+
+
+[LONGITUDINAL]
+input = {r, delta,beta,tau}
+
+EQUATION:
+odeType = stiff
+;beta=10^(log10beta)
+t0    = -tau
+T_0=1
+V_0=0.01
+
+
+; Parameter transformations 
+
+ddt_T = -beta*T*V
+ddt_V = r*T*V-delta*V
+
+;
+Vaa=log10((V))
+
+
+OUTPUT:
+output = {Vaa}
