@@ -1,5 +1,3 @@
-# SARS-CoV-2_Isolation_antigen_test
-
 # Designing isolation guidelines for COVID-19 patients with rapid antigen tests
 
 
