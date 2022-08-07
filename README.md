@@ -1,5 +1,7 @@
 # Designing isolation guidelines for COVID-19 patients with rapid antigen tests
 
+Yong Dam Jeong, Keisuke Ejima, Kwang Su Kim, Woo Joohyeon, Shoya Iwanami, Yasuhisa Fujita, Il Hyo Jung, Kazuyuki Aihara, Kenji Shibuya, Shingo Iwami, Ana I. Bento and Marco Ajelli
+
 
 # 1) Viral dynamics model
 
