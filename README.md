@@ -5,7 +5,7 @@ Yong Dam Jeong, Keisuke Ejima, Kwang Su Kim, Woo Joohyeon, Shoya Iwanami, Yasuhi
 
 # 1) Viral dynamics model
 
-'symptomatic109.csv' and 'asymptomatic101.csv' are viral load data for symptomatic and asymptomatic patients, respectively. The data were extracted from published literature.
+'symptomatic109.csv' and 'asymptomatic101.csv' are viral load data for symptomatic and asymptomatic patients, respectively. The data were extracted from published literatures.
 
 'model.txt' is the description for mathematical model of viral dynamics.
 
